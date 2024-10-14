@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Food Finder</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="main-header">
+        <nav id="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1 class="main-title">Mood Food Finder</h1>
+        <p class="main-tagline">Discover what to eat based on how you feel!</p>
+    </header>
+    
+    
+    <section class="hero" id="home">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h2>Your Mood, Your Food</h2>
+            <p>Select your mood and discover delicious suggestions!</p>
+            <div class="mood-selector">
+                <button class="mood-button" data-mood="happy">😊 Happy</button>
+                <button class="mood-button" data-mood="sad">😢 Sad</button>
+                <button class="mood-button" data-mood="angry">😡 Angry</button>
+                <button class="mood-button" data-mood="bored">😐 Bored</button>
+                <button class="mood-button" data-mood="stressed">😩 Stressed</button>
+                <button class="mood-button" data-mood="adventurous">🌍 Adventurous</button>
+                <button class="mood-button" data-mood="romantic">❤️ Romantic</button>
+                <button class="mood-button" data-mood="nostalgic">🕰️ Nostalgic</button>
+            </div>
+            
+        <div id="suggestion" class="suggestion"></div>
+        <div id="joke" class="joke"></div> 
+    </div>
+    </section>
+    <div id="moodSections">
+        <div class="mood-section" data-mood="happy">
+            <h3>Happy Food Suggestions</h3>
+            <div class="food-item">
+                <img src="https://images.unsplash.com/photo-1460306855393-0410f61241c7?q=80&w=2295&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Happy Food 1">
+                <p>Happy Food 1</p>
+                <a href="path/to/recipe1.html" class="recipe-link">View Recipe</a>
+            </div>
+            <div class="food-item">
+                <img src="https://images.unsplash.com/photo-1593504049359-74330189a345?q=80&w=3027&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Happy Food 2">
+                <p>Happy Food 2</p>
+                <a href="path/to/recipe2.html" class="recipe-link">View Recipe</a>
+            </div>
+            <div class="food-item">
+                <img src="https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?q=80&w=2270&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Happy Food 3">
+                <p>Happy Food 3</p>
+                <a href="path/to/recipe3.html" class="recipe-link">View Recipe</a>
+            </div>
+        </div>
+
+        <div class="mood-section" data-mood="sad">
+            <h3>Sad Food Suggestions</h3>
+            <div class="food-item">
+                <img src="path/to/sad-food1.jpg" alt="Sad Food 1">
+                <p>Sad Food 1</p>
+                <a href="path/to/recipe4.html" class="recipe-link">View Recipe</a>
+            </div>
+            <div class="food-item">
+                <img src="path/to/sad-food2.jpg" alt="Sad Food 2">
+                <p>Sad Food 2</p>
+                <a href="path/to/recipe5.html" class="recipe-link">View Recipe</a>
+            </div>
+            <div class="food-item">
+                <img src="path/to/sad-food3.jpg" alt="Sad Food 3">
+                <p>Sad Food 3</p>
+                <a href="path/to/recipe6.html" class="recipe-link">View Recipe</a>
+            </div>
+        </div>
+
+        <div class="mood-section" data-mood="angry">
+            <h3>Angry Food Suggestions</h3>
+            <div class="food-item">
+                <img src="path/to/angry-food1.jpg" alt="Angry Food 1">
+                <p>Angry Food 1</p>
+                <a href="path/to/recipe7.html" class="recipe-link">View Recipe</a>
+            </div>
+            <div class="food-item">
+                <img src="path/to/angry-food2.jpg" alt="Angry Food 2">
+                <p>Angry Food 2</p>
+                <a href="path/to/recipe8.html" class="recipe-link">View Recipe</a>
+            </div>
+            <div class="food-item">
+                <img src="path/to/angry-food3.jpg" alt="Angry Food 3">
+                <p>Angry Food 3</p>
+                <a href="path/to/recipe9.html" class="recipe-link">View Recipe</a>
+            </div>
+        </div>
+
+        <div class="mood-section" data-mood="bored">
+            <h3>Bored Food Suggestions</h3>
+            <div class="food-item">
+                <img src="path/to/bored-food1.jpg" alt="Bored Food 1">
+                <p>Bored Food 1</p>
+                <a href="path/to/recipe10.html" class="recipe-link">View Recipe</a>
+            </div>
+            <div class="food-item">
+                <img src="path/to/bored-food2.jpg" alt="Bored Food 2">
+                <p>Bored Food 2</p>
+                <a href="path/to/recipe11.html" class="recipe-link">View Recipe</a>
+            </div>
+            <div class="food-item">
+                <img src="path/to/bored-food3.jpg" alt="Bored Food 3">
+                <p>Bored Food 3</p>
+                <a href="path/to/recipe12.html" class="recipe-link">View Recipe</a>
+            </div>
+        </div>
+
+        <div class="mood-section" data-mood="stressed">
+            <h3>Stressed Food Suggestions</h3>
+            <div class="food-item">
+                <img src="path/to/stressed-food1.jpg" alt="Stressed Food 1">
+                <p>Stressed Food 1</p>
+                <a href="path/to/recipe13.html" class="recipe-link">View Recipe</a>
+            </div>
+            <div class="food-item">
+                <img src="path/to/stressed-food2.jpg" alt="Stressed Food 2">
+                <p>Stressed Food 2</p>
+                <a href="path/to/recipe14.html" class="recipe-link">View Recipe</a>
+            </div>
+            <div class="food-item">
+                <img src="path/to/stressed-food3.jpg" alt="Stressed Food 3">
+                <p>Stressed Food 3</p>
+                <a href="path/to/recipe15.html" class="recipe-link">View Recipe</a>
+            </div>
+        </div>
+
+        <div class="mood-section" data-mood="adventurous">
+            <h3>Adventurous Food Suggestions</h3>
+            <div class="food-item">
+                <img src="path/to/adventurous-food1.jpg" alt="Adventurous Food 1">
+                <p>Adventurous Food 1</p>
+                <a href="path/to/recipe16.html" class="recipe-link">View Recipe</a>
+            </div>
+            <div class="food-item">
+                <img src="path/to/adventurous-food2.jpg" alt="Adventurous Food 2">
+                <p>Adventurous Food 2</p>
+                <a href="path/to/recipe17.html" class="recipe-link">View Recipe</a>
+            </div>
+            <div class="food-item">
+                <img src="path/to/adventurous-food3.jpg" alt="Adventurous Food 3">
+                <p>Adventurous Food 3</p>
+                <a href="path/to/recipe18.html" class="recipe-link">View Recipe</a>
+            </div>
+        </div>
+
+        <div class="mood-section" data-mood="romantic">
+            <h3>Romantic Food Suggestions</h3>
+            <div class="food-item">
+                <img src="path/to/romantic-food1.jpg" alt="Romantic Food 1">
+                <p>Romantic Food 1</p>
+                <a href="path/to/recipe19.html" class="recipe-link">View Recipe</a>
+            </div>
+            <div class="food-item">
+                <img src="path/to/romantic-food2.jpg" alt="Romantic Food 2">
+                <p>Romantic Food 2</p>
+                <a href="path/to/recipe20.html" class="recipe-link">View Recipe</a>
+            </div>
+            <div class="food-item">
+                <img src="path/to/romantic-food3.jpg" alt="Romantic Food 3">
+                <p>Romantic Food 3</p>
+                <a href="path/to/recipe21.html" class="recipe-link">View Recipe</a>
+            </div>
+        </div>
+
+        <div class="mood-section" data-mood="nostalgic">
+            <h3>Nostalgic Food Suggestions</h3>
+            <div class="food-item">
+                <img src="path/to/nostalgic-food1.jpg" alt="Nostalgic Food 1">
+                <p>Nostalgic Food 1</p>
+                <a href="path/to/recipe22.html" class="recipe-link">View Recipe</a>
+            </div>
+            <div class="food-item">
+                <img src="path/to/nostalgic-food2.jpg" alt="Nostalgic Food 2">
+                <p>Nostalgic Food 2</p>
+                <a href="path/to/recipe23.html" class="recipe-link">View Recipe</a>
+            </div>
+            <div class="food-item">
+                <img src="path/to/nostalgic-food3.jpg" alt="Nostalgic Food 3">
+                <p>Nostalgic Food 3</p>
+                <a href="path/to/recipe24.html" class="recipe-link">View Recipe</a>
+            </div>
+        </div>
+    </div>
+    
+    <section class="feedback">
+        <h3>Rate Your Suggestion</h3>
+        <div class="rating">
+            <span class="star" data-value="1">&#9733;</span>
+            <span class="star" data-value="2">&#9733;</span>
+            <span class="star" data-value="3">&#9733;</span>
+            <span class="star" data-value="4">&#9733;</span>
+            <span class="star" data-value="5">&#9733;</span>
+        </div>
+        <div id="feedbackMsg" class="feedback-msg"></div>
+    </section>
+
+    <section id="about">
+        <h3>About Us</h3>
+        <div class="about-content">
+            <p>We are dedicated to helping you find the perfect food based on your mood. Our suggestions are curated to uplift your spirits and satisfy your cravings!</p>
+            <div class="about-image">
+                <img src="https://img.freepik.com/free-photo/3d-rendering-chinese-reunion-dinner-dishes_23-2151089088.jpg?t=st=1728827849~exp=1728831449~hmac=f5577413b1b46640a31f56c9ca578f9a538cf3daf486bc83c24d339a728148ca&w=1380" alt="About Us">
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <h3>Contact Us</h3>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" required></textarea>
+            <button type="submit">Send Message</button>
+            <div id="formResponse" class="form-response"></div>
+        </form>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Mood Food Finder. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
